@@ -75,5 +75,10 @@ namespace Notepad.Forms
             if (result.SearchStatus)
                 Editor.Select(result.SelectionStart, txtFind.Text.Length);
         }
+
+        private void btnCancel_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

@@ -46,19 +46,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-  <Compile Include="Forms\FormAbout.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\FormAbout.Designer.cs">
-      <DependentUpon>FormAbout.cs</DependentUpon>
-    </Compile>
     <Compile Include="Forms\FormFind.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\FormFind.Designer.cs">
       <DependentUpon>FormFind.cs</DependentUpon>
     </Compile>
-	<Compile Include="Forms\FormReplace.cs">
+    <Compile Include="Forms\FormReplace.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\FormReplace.Designer.cs">
@@ -72,16 +66,13 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-	<EmbeddedResource Include="Forms\FormAbout.resx">
-      <DependentUpon>FormAbout.cs</DependentUpon>
-    </EmbeddedResource>
-	<EmbeddedResource Include="Forms\FormReplace.resx">
+    <EmbeddedResource Include="Forms\FormReplace.resx">
       <DependentUpon>FormReplace.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
-	<EmbeddedResource Include="Forms\FormFind.resx">
+    <EmbeddedResource Include="Forms\FormFind.resx">
       <DependentUpon>FormFind.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">

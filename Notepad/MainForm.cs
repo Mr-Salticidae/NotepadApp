@@ -337,13 +337,7 @@ namespace Notepad
 
         private void viewHelpToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Process.Start("https://www.google.com/search?source=hp&ei=5y7vWtHkJsrxvgT34reADg&q=notepad+using+c%23&oq=notepad+using+c%23&gs_l=psy-ab.3..0j0i22i30k1l9.100016.102766.0.103103.18.14.0.0.0.0.277.2296.0j5j6.11.0....0...1.1.64.psy-ab..7.11.2293.0..35i39k1j0i131k1j0i3k1.0.vqO-K4vUFLU");
-        }
-
-        private void aboutnotepadHelpMenu_Click(object sender, EventArgs e)
-        {
-            FormAbout aboutForm = new FormAbout();
-            aboutForm.ShowDialog();
+            Process.Start("https://www.google.com");
         }
     }
 }
